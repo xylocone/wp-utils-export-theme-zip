@@ -1,6 +1,6 @@
 {
   "name": "@xylocone/export-theme-zip",
-  "version": "v1.0.0",
+  "version": "v1.0.1",
   "description": "Export the CWD as a Wordpress theme zip file",
   "type": "module",
   "main": "./package/index.js",
@@ -15,6 +15,12 @@
   },
   "author": "xylocone",
   "license": "MIT",
+  "keywords": [
+    "wordpress",
+    "theme",
+    "export",
+    "zip"
+  ],
   "dependencies": {
     "chalk": "^5.0.1",
     "zip-lib": "^0.7.3"
