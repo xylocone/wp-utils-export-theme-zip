@@ -1,0 +1,22 @@
+{
+  "name": "@xylocone/export-theme-zip",
+  "version": "v1.0.0",
+  "description": "Export the CWD as a Wordpress theme zip file",
+  "type": "module",
+  "main": "./package/index.js",
+  "bin": {
+    "export-theme-zip": "./package/index.js"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "xylocone",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.0.1",
+    "zip-lib": "^0.7.3"
+  }
+}
